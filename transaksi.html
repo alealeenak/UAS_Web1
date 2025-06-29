@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transaksi Simpan Pinjam</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" height="100" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="transaksi.html">Transaksi</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="text-align: center;">Form Transaksi Simpan Pinjam</h2>
+    <div class="form-container">
+      <form id="formTransaksi">
+        <label>Nama Transaksi:
+          <input type="text" id="nama" />
+        </label>
+        <label>Jumlah:
+          <input type="number" id="jumlah" />
+        </label>
+        <label>Kategori:
+          <select id="kategori">
+            <option value="">Pilih Kategori</option>
+            <option value="Simpan">Simpan</option>
+            <option value="Pinjam">Pinjam</option>
+          </select>
+        </label>
+        <button type="submit">Simpan Transaksi</button>
+      </form>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="daftar_transaksi.html">Lihat Daftar Transaksi</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; ALYA ARTA MEVIA</p>
+  </footer>
+</body>
+</html>
